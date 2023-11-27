@@ -1,0 +1,61 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: tomato;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    margin-top: 10vh;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 40vh;
+    justify-content: center;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-arrow{
+    width: 40%;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: white;
+}
+
+.right-arrow{
+    width: 40%;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: white;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
